@@ -1,0 +1,5 @@
+canvas#lineChart {
+    display: block;
+    height: 100vh!important;
+    width: 100%!important;
+}   
