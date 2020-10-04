@@ -1,0 +1,30 @@
+<div *ngIf="currentUser!=''">
+    <h4 [ngStyle]="{'color': color}">{{wish}} {{marksDetail.name}} you are {{result}} with grade {{grade}}</h4>
+
+<div>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email Id</th>
+            <th>Maths</th>
+            <th>Physics</th>
+            <th>Chemistry</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+                <td>{{marksDetail.name}}</td> 
+                <td>{{marksDetail.emailId}}</td> 
+               <td>{{marksDetail.maths}}</td> 
+               <td>{{marksDetail.Physics}}</td> 
+               <td>{{marksDetail.Chemistry}}</td> 
+               <td>{{marksDetail.maths+marksDetail.Physics+marksDetail.Chemistry}}</td> 
+        </tr>
+        <tr>
+            
+            <td colspan="2" style="text-align: right;" (click)="logout()"><button>Lougout</button></td>
+            <td colspan="4" style="text-align: left;" (click)="graph()"><button>Graph</button></td>
+        </tr>
+    </table>
+</div>
+<!--canvas id="lineChart"></canvas-->
+</div>
