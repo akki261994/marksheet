@@ -1,0 +1,28 @@
+{
+  "allUserDetails": [
+    {
+      "emailId":"akshay.prabhudesai@gmail.com",
+      "password":"akshay@1994"
+    },
+    {
+        "emailId":"snehalyadav2@gmail.com",
+        "password":"snehal@1994"
+    }
+  ],
+  "marksDetail": [
+    {
+      "name":"Akshay",
+      "emailId": "akshay.prabhudesai@gmail.com",
+      "maths": 74,
+      "Physics": 25,
+      "Chemistry": 80
+    },
+    {
+      "name":"Snehal",
+      "emailId": "snehalyadav2@gmail.com",
+      "maths": 92,
+      "Physics": 94,
+      "Chemistry": 90
+    }
+  ]
+}
